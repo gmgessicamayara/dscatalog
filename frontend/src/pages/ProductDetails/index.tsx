@@ -13,7 +13,7 @@ const ProductDetails = () => {
             <div className="row">
                 <div className="col-xl-6">
                     <div className="img-container">
-                        <img src ="https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/2-big.jpg" alt="Nome do produto"/>
+                        <img src ="https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/2-big.jpg" alt="Nome do Produto"/>
                     </div>
                     <div className="name-price-container">
                         <h1>Nome do produto</h1>

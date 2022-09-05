@@ -13,4 +13,4 @@ const ProductPrice = ( { price } : Props) => {
     );
 }
 
-export default ProductPrice;
+export default ProductPrice; 

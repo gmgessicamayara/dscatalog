@@ -10,7 +10,7 @@ const product : Product ={
   price: 2190.0,
   imgUrl:'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/2-big.jpg',
   date: '2020-07',
-  categories: [
+  categories: [ 
     {
       id: 1,
       name: 'Livros'
