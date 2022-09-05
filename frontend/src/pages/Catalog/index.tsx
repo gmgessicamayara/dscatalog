@@ -8,7 +8,7 @@ const product : Product ={
   name: 'Smart TV',
   description: 'TV',
   price: 2190.0,
-  imgUrl:'',
+  imgUrl:'https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/2-big.jpg',
   date: '2020-07',
   categories: [
     {

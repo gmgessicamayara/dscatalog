@@ -1,10 +1,11 @@
 import { ReactComponent as ArrowIcon}  from 'assets/images/arrow.svg';
 import ProductPrice from 'components/ProductPrice';
+import './style.css';
 
 const ProductDetails = () => {
     return(
        <div className="product-details-container">
-        <div className="product-details-card">
+        <div className="base-card product-details-card">
             <div className="go-back-container">
                 <ArrowIcon/>
                 <h2>VOLTAR</h2>
@@ -12,7 +13,7 @@ const ProductDetails = () => {
             <div className="row">
                 <div className="col-xl-6">
                     <div className="img-container">
-                        <img src ="" alt="Nome do produto"/>
+                        <img src ="https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/2-big.jpg" alt="Nome do produto"/>
                     </div>
                     <div className="name-price-container">
                         <h1>Nome do produto</h1>
