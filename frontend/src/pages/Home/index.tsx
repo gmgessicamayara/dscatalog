@@ -1,5 +1,5 @@
 import { ReactComponent as MainImage } from 'assets/images/main-image.svg';
-import './style.css';
+import './styles.css';
 
 import { Link } from 'react-router-dom';
 
