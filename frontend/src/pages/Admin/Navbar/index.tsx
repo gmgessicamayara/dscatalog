@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import Users from '../User';
 import './styles.css';
 
 const Navbar = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink to="/admin/users"  className="admin-nav-item">
-            <p>Usuários</p> 
+             <Users />
           </NavLink>
         </li>
       </ul>
